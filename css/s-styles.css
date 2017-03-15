@@ -3667,18 +3667,14 @@ fieldset#edit-commerce-payment {
       box-sizing: border-box;
       padding-left: 20px; } }
 
-.header,
 .header__content,
 .page,
-.footer,
 .footer__content,
 .copyright {
   margin: 0 auto; }
   @media (min-width: 960px) {
-    .header,
     .header__content,
     .page,
-    .footer,
     .footer__content,
     .copyright {
       max-width: 1600px; } }
