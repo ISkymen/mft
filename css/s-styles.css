@@ -447,8 +447,6 @@ table.commerce-price-savings-formatter-prices {
 .front #content {
   margin-top: 15px; }
 
-.block-title,
-h1,
 .page-search h1 {
   color: #b3699d;
   font-family: Georgia;
@@ -459,23 +457,6 @@ h1,
   position: relative;
   margin-bottom: 45px;
   margin-top: -5px; }
-
-.block-title:after,
-h1:after {
-  content: " ";
-  position: absolute;
-  width: 182px;
-  height: 5px;
-  top: 100%;
-  background: #b3699d;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
-
-.front .block-title:after {
-  width: 112px; }
 
 .node-type-product-display .block-title {
   font-size: 30px;
