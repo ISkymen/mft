@@ -368,5 +368,10 @@ function mft_form_alter( &$form, &$form_state, $form_id ) {
   {
     $form['combine']['#attributes']['placeholder'] = t( "I'm looking for..." );
   }
+  if (in_array( $form_id, array('user_login')))
+  {
+    //var_dump($form['actions']['submit']);
+    $form['actions']['submit']['#id'] = 'login';
+  }
 }
 

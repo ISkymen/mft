@@ -17,6 +17,7 @@
 Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
+  //console.log(settings);
 
   }
 };
