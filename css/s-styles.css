@@ -3863,6 +3863,7 @@ fieldset#edit-commerce-payment {
     display: inline-block; }
     #views-exposed-form-search-page .views-submit-button input {
       margin: 2px;
+      padding: 0;
       font-size: 0;
       background-color: transparent;
       background-image: url(img/sprite.png);
