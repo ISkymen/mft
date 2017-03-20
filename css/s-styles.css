@@ -3404,7 +3404,7 @@ fieldset#edit-commerce-payment {
     right: 7px;
     top: 0;
     background-image: url(img/sprite.png);
-    background-position: -124px -123px;
+    background-position: -210px -133px;
     width: 22px;
     height: 18px;
     pointer-events: none; }
@@ -3653,7 +3653,7 @@ fieldset#edit-commerce-payment {
       content: '';
       display: block;
       background-image: url(img/sprite.png);
-      background-position: -172px -126px;
+      background-position: -172px -124px;
       width: 12px;
       height: 7px; }
 
@@ -3753,15 +3753,6 @@ fieldset#edit-commerce-payment {
 .region-footer-right {
   text-align: right; }
 
-#block-block-17 {
-  background-image: url(img/sprite.png);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 170px;
-  height: 79px;
-  margin-top: 30px; }
-
 .s-social__link {
   display: inline-block;
   background-image: url(img/sprite.png);
@@ -3777,15 +3768,15 @@ fieldset#edit-commerce-payment {
   .s-social__link:hover {
     opacity: 1; }
   .s-social__link--fb {
-    background-position: -124px -81px; }
+    background-position: -96px -81px; }
   .s-social__link--gp {
-    background-position: 0px -143px; }
+    background-position: -126px -133px; }
   .s-social__link--tw {
-    background-position: -172px 0px; }
+    background-position: -42px -133px; }
   .s-social__link--in {
-    background-position: -172px -84px; }
+    background-position: -84px -133px; }
   .s-social__link--pi {
-    background-position: -172px -42px; }
+    background-position: 0px -133px; }
 
 .region-header2 {
   /* START FLEXSLIDER */
@@ -3880,9 +3871,9 @@ fieldset#edit-commerce-payment {
   .region-header2 .admin-menu .flex-direction-nav a {
     top: 335px; }
   .region-header2 .flex-direction-nav a.flex-prev {
-    background-position: 0px -81px; }
+    background-position: -172px 0px; }
   .region-header2 .flex-direction-nav a.flex-next {
-    background-position: -62px -81px; }
+    background-position: -172px -62px; }
   .region-header2 .flex-direction-nav .flex-prev,
   .region-header2 .flexslider:hover .flex-prev {
     left: 20px; }
@@ -3924,7 +3915,7 @@ fieldset#edit-commerce-payment {
       font-size: 0;
       background-color: transparent;
       background-image: url(img/sprite.png);
-      background-position: -82px -143px;
+      background-position: -188px -133px;
       width: 20px;
       height: 20px;
       outline: 0; }
@@ -4000,10 +3991,10 @@ fieldset#edit-commerce-payment {
       content: none; }
   .view-id-artisans.view-display-id-block .flexslider .flex-direction-nav .flex-prev {
     left: 0;
-    background-position: -42px -143px; }
+    background-position: -138px -81px; }
   .view-id-artisans.view-display-id-block .flexslider .flex-direction-nav .flex-next {
     right: 0;
-    background-position: -62px -143px; }
+    background-position: -168px -133px; }
 
 #flexnav_1 {
   padding: 0; }
@@ -4034,7 +4025,7 @@ fieldset#edit-commerce-payment {
     right: 6px;
     top: 6px;
     background-image: url(img/sprite.png);
-    background-position: -124px -123px;
+    background-position: -210px -133px;
     width: 22px;
     height: 18px;
     -webkit-transition: right 0.3s ease;
@@ -4073,6 +4064,23 @@ fieldset#edit-commerce-payment {
     box-shadow: 1px 1px 5px 0 grey;
     padding: 5px 10px;
     display: none; }
+
+#block-block-17 {
+  background-image: url(img/sprite.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 170px;
+  height: 79px;
+  margin-top: 30px; }
+
+#block-block-19 {
+  background-image: url(sprite.png);
+  background-position: 0px -81px;
+  background-repeat: no-repeat;
+  width: 94px;
+  height: 50px;
+  display: inline-block; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
