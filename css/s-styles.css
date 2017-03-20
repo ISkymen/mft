@@ -902,6 +902,7 @@ form tbody {
   font-weight: 700;
   margin: 25px 0 30px 0; }
 
+input[type="submit"],
 a.button,
 .checkout-buttons .checkout-cancel,
 .checkout-buttons .checkout-back {
