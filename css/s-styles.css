@@ -902,7 +902,6 @@ form tbody {
   font-weight: 700;
   margin: 25px 0 30px 0; }
 
-input[type="submit"],
 a.button,
 .checkout-buttons .checkout-cancel,
 .checkout-buttons .checkout-back {
@@ -3565,11 +3564,7 @@ fieldset#edit-commerce-payment {
       width: 52%; }
       .region-header .block {
         display: inline-block;
-        font-size: 16px; }
-      .region-header .block:nth-child(1n) {
-        width: 40%; }
-      .region-header .block:nth-child(2n) {
-        width: 60%; } }
+        font-size: 16px; } }
 
 .region-header-right {
   display: inline-block;
@@ -3918,7 +3913,8 @@ fieldset#edit-commerce-payment {
       background-position: -188px -133px;
       width: 20px;
       height: 20px;
-      outline: 0; }
+      outline: 0;
+      border: 1px solid transparent; }
 
 #block-menu-block-4 .menu {
   margin: 0; }
@@ -4075,12 +4071,20 @@ fieldset#edit-commerce-payment {
   margin-top: 30px; }
 
 #block-block-19 {
-  background-image: url(sprite.png);
+  background-image: url(img/sprite.png);
   background-position: 0px -81px;
   background-repeat: no-repeat;
   width: 94px;
   height: 50px;
   display: inline-block; }
+
+@media (min-width: 960px) {
+  #block-menu-block-2 {
+    width: 40%; } }
+
+@media (min-width: 960px) {
+  #block-views-exp-search-page {
+    width: calc(60% - 94px); } }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
