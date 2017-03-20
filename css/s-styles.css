@@ -3549,8 +3549,8 @@ fieldset#edit-commerce-payment {
     left: 50%;
     margin-left: -12px;
     opacity: 0;
-    -webkit-transition: opacity 0.1s 0.3s linear;
-    transition: opacity 0.1s 0.3s linear; }
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear; }
   .region-navigation .sf-menu li:hover::before {
     opacity: 1; }
   .region-navigation .sf-menu li:hover > ul {
@@ -4098,6 +4098,17 @@ fieldset#edit-commerce-payment {
       width: 30%; }
       .region-header-right .block {
         display: inline-block; } }
+
+.shop__link {
+  display: block;
+  height: 25px;
+  background: white;
+  opacity: 0.2;
+  font-size: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+  .shop__link:hover {
+    opacity: 0; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
