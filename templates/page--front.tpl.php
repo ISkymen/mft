@@ -52,6 +52,9 @@
   <?php if ($page['front_trend']) print render($page['front_trend']); ?>
   <?php if ($page['front_carousel']) print render($page['front_carousel']); ?>
 </div>
+
+<?php if ($page['content_1st']) print render($page['content_1st']); ?>
+
 <div class="footer">
     <footer class="footer__content">
       <?php if ($page['footer_left']) print render($page['footer_left']); ?>

@@ -3391,7 +3391,7 @@ fieldset#edit-commerce-payment {
     right: 0;
     top: 0;
     background-image: url(img/sprite.png);
-    background-position: -64px -161px;
+    background-position: -106px -161px;
     width: 22px;
     height: 18px;
     pointer-events: none; }
@@ -3485,10 +3485,17 @@ fieldset#edit-commerce-payment {
 
 .mf-category__image {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .mf-category__image img {
     width: 100%;
     height: auto; }
+  .mf-category__image a {
+    display: block;
+    width: 100%;
+    height: 100%; }
 
 .mf-category__title a {
   font-family: Noto, Arial, Helvetica, sans-serif;
@@ -3584,23 +3591,27 @@ fieldset#edit-commerce-payment {
 .header__content,
 .page,
 .footer__content,
+.region-content-1st,
 .copyright {
   margin: 0 auto; }
   @media (min-width: 960px) {
     .header__content,
     .page,
     .footer__content,
+    .region-content-1st,
     .copyright {
       max-width: 1200px; } }
   @media (min-width: 1600px) {
     .header__content,
     .page,
     .footer__content,
+    .region-content-1st,
     .copyright {
       max-width: 1600px; }
       .not-front .header__content, .not-front
       .page, .not-front
       .footer__content, .not-front
+      .region-content-1st, .not-front
       .copyright {
         max-width: 1200px; } }
 
@@ -3657,15 +3668,17 @@ fieldset#edit-commerce-payment {
   .s-social__link:hover {
     opacity: 1; }
   .s-social__link--fb {
-    background-position: 0px -143px; }
-  .s-social__link--gp {
-    background-position: -172px -84px; }
-  .s-social__link--tw {
     background-position: -124px -81px; }
-  .s-social__link--in {
+  .s-social__link--gp {
+    background-position: -42px -143px; }
+  .s-social__link--tw {
     background-position: -172px -42px; }
+  .s-social__link--in {
+    background-position: 0px -143px; }
   .s-social__link--pi {
     background-position: -172px 0px; }
+  .s-social__link--yt {
+    background-position: -172px -84px; }
 
 .s-shop__link {
   position: relative;
@@ -3693,9 +3706,9 @@ fieldset#edit-commerce-payment {
     width: 40px;
     height: 16px; }
   .s-shop__link--ebay::before {
-    background-position: -42px -143px; }
-  .s-shop__link--amazon::before {
     background-position: -124px -123px; }
+  .s-shop__link--amazon::before {
+    background-position: -84px -143px; }
 
 .shop__link {
   display: block;
@@ -4021,7 +4034,7 @@ aside .region-sidebar-first .block__title {
       font-size: 0;
       background-color: transparent;
       background-image: url(img/sprite.png);
-      background-position: -42px -161px;
+      background-position: -84px -161px;
       width: 20px;
       height: 20px;
       outline: 0;
@@ -4056,7 +4069,7 @@ aside .region-sidebar-first .block__title {
     right: 6px;
     top: 6px;
     background-image: url(img/sprite.png);
-    background-position: -64px -161px;
+    background-position: -106px -161px;
     width: 22px;
     height: 18px;
     -webkit-transition: right 0.3s ease;
