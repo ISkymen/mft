@@ -3439,7 +3439,7 @@ fieldset#edit-commerce-payment {
   .mf-category a {
     display: block; }
   .mf-category:nth-child(1), .mf-category:nth-child(8) {
-    width: auto;
+    width: 100%;
     height: 200px; }
     @media (min-width: 640px) {
       .mf-category:nth-child(1), .mf-category:nth-child(8) {
@@ -3472,7 +3472,7 @@ fieldset#edit-commerce-payment {
         width: 23.75%;
         height: 145px; } }
   .mf-category:nth-child(4), .mf-category:nth-child(5) {
-    width: auto;
+    width: 100%;
     height: 200px; }
     @media (min-width: 640px) {
       .mf-category:nth-child(4), .mf-category:nth-child(5) {
@@ -3499,7 +3499,7 @@ fieldset#edit-commerce-payment {
 
 .mf-category__title a {
   font-family: Noto, Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   color: #252525;
   padding: 5px 0 10px;
